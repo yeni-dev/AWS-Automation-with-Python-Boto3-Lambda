@@ -17,3 +17,7 @@ for each_user in iam_console_resource.users.all(): #loops through and prints all
 
 for each in iam_console_client.list_users()["Users"]:
     print(each["UserName"])
+
+
+#print(aws_management_console.get_available_resources())
+
